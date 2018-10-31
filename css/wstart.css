@@ -1,0 +1,52 @@
+﻿<style>
+@font-face { font-family: Century; }
+ 
+body{
+    font-family: Century;
+    background: rgb(51,51,51);
+    background-image: url("http://localhost:54602/windows/img/start.png");
+
+  background-repeat: no-repeat;
+    color: white;
+    padding:25px;
+}
+.page{
+
+width:auto;
+height:auto;
+
+}
+.wcontent
+{
+ width:auto;
+    padding:5px;
+    height:auto;
+    display:table;
+}
+.wappcolor1{
+background:blue;
+}
+.wappcolor2{
+background:#DAA520;
+}
+.wappcolor3{
+ background:#CD0000;
+}
+.wappcolor4{
+background:#4682B4;
+}
+.wtile{
+height:100px;
+width:100px;
+float:left;
+margin : 0   5px 0 5px;
+padding:10px
+
+}
+.wtilelarge
+{
+width:210px;
+}
+.selecionado{
+    background-color: #483D8B;
+}

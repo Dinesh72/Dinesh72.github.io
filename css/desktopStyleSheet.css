@@ -1,0 +1,70 @@
+﻿body {margin:0;
+      background:url(http://localhost:54602/windows/img/621309_windows-10-desktop-backgrounds-with-scientific-space-planet-galaxy_1920x1080_h.jpg);
+      background-repeat: no-repeat;
+      
+      }
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+   height:6%;
+  }
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 20%; 
+  width:1500px;/* Used in this example to enable scrolling */
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.starticon 
+{
+    float:left;
+  display: block;
+  padding-left:10px;
+  padding-top:15px;  
+  width: 3%;
+  height: 85%;
+  
+.div
+{
+    background-color: grey;
+    float:left;
+    position:fixed;
+    bottom:0;
+    height:6%;
+    width:100%  
+}
+.image {
+  display: block;
+  width: 8%;
+  height: 100%;
+}
+
+.overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 6%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: lightblue;
+}
+
+.div:hover .overlay {
+  opacity: 0.3;
+}
